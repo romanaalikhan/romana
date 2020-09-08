@@ -25,7 +25,7 @@ public class NewTest {
 		driver.manage().window().maximize();
 		//READY TO WEAR
 		driver.findElement(By.xpath("//span[contains(text(),'Ready To Wear')]")).click();
-		//wait
+		//wait..
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='category-img']/img[1]")));
 		//EVENING WEAR
 		driver.findElement(By.xpath("//span[@class='category-img']//img[1]")).click();
